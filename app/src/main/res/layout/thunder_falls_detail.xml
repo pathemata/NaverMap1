@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/primary">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Thunder Falls"
+    android:textStyle="bold"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/hi1"
+    android:textSize="@dimen/_22ssp"
+    android:textColor="@color/white"/>
+
+<LinearLayout
+    android:id="@+id/hi1"
+    android:layout_marginTop="@dimen/_45sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_myinput">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_marginTop="@dimen/_25sdp"
+        app:srcCompat="@drawable/thunder_falls"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:textSize="@dimen/_8ssp"
+        android:text="20미터의 국내 최고 낙하높이! 45도의 국내 최대 낙하각도!\n국내 최초로 도입된 뒤로 떨어지는 백워드 드롭!\n약 40미터 확장 된 최장 수로길이 486미터!
+\n\n[유의사항]\n
+- Big Splash 존에서 몸이나 소지품이 젖을 수 있습니다.\n
+- 우의를 지참해 오시거나 인근 상품점에서 다양한 우의를 바로 구입 하실 수 있습니다.\n
+- 어트랙션 운영 중 안전센서 작동, 낙뢰, 정전, 기상 조건으로 인해 비상정지할 수 있으며, 시설물 긴급 점검이 필요할 경우 사전 예고없이 운영이 중단될 수 있습니다.\n
+- 탑승 시 떨어질 수 있는 소지품은 착용 및 소지 불가 합니다.\n
+- 손님의 부주의로 인한 과실은 책임지지 않습니다.\n
+
+이용 가능 키 : 100cm ~ 110cm 보호자동반 필요
+"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="운영 시간 : 10:00 ~ 22:00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="대기 시간: 20분"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        app:srcCompat="@drawable/thunder_limit" />
+
+
+
+</LinearLayout>
+    <Button
+        android:id="@+id/thunder_falls_map"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:text="MAP"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:clickable="true"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+

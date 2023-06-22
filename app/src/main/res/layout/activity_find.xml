@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/second"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/back_to_map_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_back"
+                android:backgroundTint="@color/primary"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:tint="@color/white"/>
+
+
+            <Button
+                android:id="@+id/select_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:background="@drawable/gpt_chat2"
+                android:text="현위치" />
+
+
+            <Button
+                android:id="@+id/select_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:background="@drawable/gpt_chat2"
+                android:text="선택완료" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="현위치를 누른 뒤 목적지를 선택해주세요!"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="Attraction"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp">
+
+            <LinearLayout
+                android:id="@+id/amazon_express_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/_2sdp"
+                >
+
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/amazon_express" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amazonexpress"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bumper_cars_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/bumper_cars" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bumpercars"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/championship_rodeo_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/championship_rodeo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/championshiprodeo"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp">
+
+            <LinearLayout
+                android:id="@+id/columbus_adventures_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/columbus_adventures" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/columbusadventures"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/double_rock_spin_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/double_rock_spin" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/doublerockspin"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hurricane_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/hurricane" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hurricane"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lets_twist_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/lets_twist" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/letstwist"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/panda_world_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/panda_world" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pandaworld"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/peter_pan_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/peter_pan" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/peterpan"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/rolling_x_train_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/rolling_x_train" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rollingxtrain"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/safari_world_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/safari_world" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/safariworld"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sky_cruise_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/sky_cruise" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/skycruise"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/sky_way_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/sky_way" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/skyway"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/t_express_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/t_express" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texpress"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/thunder_falls_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/thunder_falls" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/thunderfalls"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Entertainment"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/grandadventures_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/grandadventures" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grandadventures"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/penguins_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/penguins" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/penguins"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sealions_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/sealions" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sealions"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/superswings_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/superswings" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/superswings"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tigers_select"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/selector_view"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:src="@drawable/tigers" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tigers"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

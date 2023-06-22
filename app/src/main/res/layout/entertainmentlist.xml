@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView android:fillViewport="true" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical"
+        android:background="@color/second">
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:clickable="true" android:id="@+id/grandadventures"
+        android:background="@drawable/background_list"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp">
+
+    <ImageView android:layout_height="100dp" android:layout_width="0dp" app:srcCompat="@drawable/grandadventures" android:layout_weight="1"/>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="0dp" android:orientation="vertical" android:layout_weight="3">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text=" Grand Adventures" android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="평화롭던 이솝빌리지에 찾아온 어둠의 기운... 레니와 라라는 드래곤 성을 찾아 떠나는데…!" android:textSize="12sp" android:padding="5dp"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="대기시간 : 20분" android:paddingRight="15dp" android:layout_gravity="right|bottom"
+        android:textColor="@color/gray"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:clickable="true" android:id="@+id/penguins"
+        android:background="@drawable/background_list"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp">
+
+    <ImageView android:layout_height="100dp" android:layout_width="0dp" app:srcCompat="@drawable/penguins" android:layout_weight="1"/>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="0dp" android:orientation="vertical" android:layout_weight="3">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text=" Penguins Animal talk" android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="사육사가 들려주는 자카스 펭귄 애니멀톡! 펭귄들의 이야기와 물 속 하늘을 나는 펭귄들을 만나보세요!" android:textSize="12sp" android:padding="5dp"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_width="wrap_content" android:text="대기시간 : 20분" android:paddingRight="15dp" android:layout_gravity="right|bottom"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:clickable="true" android:id="@+id/sealions"
+        android:background="@drawable/background_list"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp">
+
+    <ImageView android:layout_height="100dp" android:layout_width="0dp" app:srcCompat="@drawable/sealions" android:layout_weight="1"/>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="0dp" android:orientation="vertical" android:layout_weight="3">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text=" Sealions Animal talk" android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="해양동물이 행복하고 건강하게 살아갈 수 있도록 노력하는 사육사들의 멋진 이야기" android:textSize="12sp" android:padding="5dp"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_width="wrap_content" android:text="대기시간 : 20분" android:paddingRight="15dp" android:layout_gravity="right|bottom"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:clickable="true" android:id="@+id/superswings"
+        android:background="@drawable/background_list"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp">
+
+    <ImageView android:layout_height="100dp" android:layout_width="0dp" app:srcCompat="@drawable/superswings" android:layout_weight="1"/>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="0dp" android:orientation="vertical" android:layout_weight="3">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text=" Superswings" android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="멸종 위기종인 새들이 행복하고 건강하게 살아갈 수 있도록 사육사가 새들을 돌봐주는 이야기" android:textSize="12sp" android:padding="5dp"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_width="wrap_content" android:text="대기시간 : 20분" android:paddingRight="15dp" android:layout_gravity="right|bottom"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:clickable="true" android:id="@+id/tigers"
+        android:background="@drawable/background_list"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp">
+
+    <ImageView android:layout_height="100dp" android:layout_width="0dp" app:srcCompat="@drawable/tigers" android:layout_weight="1"/>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="0dp" android:orientation="vertical" android:layout_weight="3">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text=" TigerValley Animal talk" android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="호랑이가 어흥~하는 소리를 직접 들어보셨나요? 사육사한테 애교 떠는 모습은 딱 호냥이~!" android:textSize="12sp" android:padding="5dp"
+        android:textColor="@color/white"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_width="wrap_content" android:text="대기시간 : 20분" android:paddingRight="15dp" android:layout_gravity="right|bottom"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

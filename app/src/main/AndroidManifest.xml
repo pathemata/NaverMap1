@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/map"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NaverMap1"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="7nphjuik8j" />
+
+        <activity
+            android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapInfo"
+            android:theme="@style/OverlayTheme"
+            />
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity
+            android:name=".activities.ChatActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity
+            android:name=".activities.UsersActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity
+            android:name=".activities.SignInActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ChatApp"/>
+        <service
+            android:name=".MessagingService"
+            android:exported="false"
+            android:theme="@style/Theme.ChatApp">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".FindActivity"/>
+        <activity android:name=".DetailFindActivity"/>
+        <activity android:name=".MapActivity"/>
+        <activity android:name=".GptActivity"/>
+        <activity android:name=".Message"/>
+        <activity android:name=".MessageAdapter"/>
+        <activity android:name=".AttractionMap"/>
+        <activity android:name=".EntertainmentMap"/>
+        <activity android:name=".EntertainmentList"/>
+        <activity android:name=".AttractionList"/>
+
+        <activity android:name=".Amazon_express"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Bumper_cars"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Championship_rodeo"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Columbus_adventures"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Double_rock_spin"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Hurricane"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Lets_twist"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Panda_world"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Peter_pan"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Rolling_x_train"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Safari_world"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Sky_cruise"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Sky_way"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".T_express"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Thunder_falls"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Grandadventures"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Penguins"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Sealions"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Superswings"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".Tigers"
+            android:theme="@style/Theme.ChatApp"/>
+        <activity android:name=".ListActivity" />
+    </application>
+
+</manifest>

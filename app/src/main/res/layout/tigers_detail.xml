@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/primary">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tiger Animaltalk"
+    android:textStyle="bold"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/hi1"
+    android:textSize="@dimen/_22ssp"
+    android:textColor="@color/white"/>
+
+<LinearLayout
+    android:id="@+id/hi1"
+    android:layout_marginTop="@dimen/_45sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_myinput">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_marginTop="@dimen/_25sdp"
+        app:srcCompat="@drawable/tigers"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+
+        android:text="호랑이가 어흥~하는 소리를 직접 들어보셨나요?\n
+사육사한테 애교 떠는 모습은 딱 호냥이~!\n\n
+
+[이용안내]\n
+* 동물의 건강 및 기상 상황에 따라 예고없이 취소 및 변경될 수 있습니다.
+
+"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="운영 시간 : 10:00 ~ 16:00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="관람 소요 시간: 15분"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        app:srcCompat="@drawable/safari_limit" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/tigers_map"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:text="MAP"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:clickable="true"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+

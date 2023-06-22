@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/primary">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Grand Adventures"
+    android:textStyle="bold"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/hi1"
+    android:textSize="@dimen/_22ssp"
+    android:textColor="@color/white"/>
+
+<LinearLayout
+    android:id="@+id/hi1"
+    android:layout_marginTop="@dimen/_45sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_myinput">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_marginTop="@dimen/_25sdp"
+        app:srcCompat="@drawable/grandadventures"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:text="평화롭던 이솝빌리지에 찾아온 어둠의 기운...\n레니와 라라는 이솝빌리지를 위험에서 구하기 위해\n드래곤 성을 찾아 떠나는데…!\n\n\n※ 공연장 입장은 공연 시작 30분전부터 가능하며,\n공연 시작 이후에는 입장이 불가합니다.\n※ 본 공연은 좌석이 지정되지 않는 자유석으로 운영됩니다.\n※ 현장 상황에 따라 공연이 취소되거나 축소 운영될 수 있으며,\n공연 일정이 변경될 수 있습니다.\n※ 이용 정보-운영 시간에서 공연시간 확인이 가능합니다.\n※ 현장 운영 상황에 따라 현장줄서기로 전환될 수 있습니다." />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="공연 시간 : 13:00 17:00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="관람 소요 시간 : 30분" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        app:srcCompat="@drawable/double_limit" />
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/grandadventures_map"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:text="MAP"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:clickable="true"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

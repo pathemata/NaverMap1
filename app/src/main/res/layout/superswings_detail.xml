@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/primary">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Super Wings"
+    android:textStyle="bold"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/hi1"
+    android:textSize="@dimen/_22ssp"
+    android:textColor="@color/white"/>
+
+<LinearLayout
+    android:id="@+id/hi1"
+    android:layout_marginTop="@dimen/_45sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_myinput">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_marginTop="@dimen/_25sdp"
+        app:srcCompat="@drawable/superswings"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:text="멸종 위기종인 새들이 행복하고 건강하게 살아갈 수 있도록
+사육사가 새들을 돌봐주는 이야기에 여러분을 초대합니다.\n\n
+
+[이용안내]\n
+- 현장줄서기로 운영되며 선착순 입장 후 조기 마감될 수 있습니다.\n
+- 코로나19 예방을 위해 입장 시 마스크를 착용해주시기 바라며
+  애니멀원더스테이지 내부에서 음식물 섭취 제한됩니다.\n\n
+
+[유의사항]\n
+- 애니멀톡 시작 20분전부터 입장 가능하며, 시작 후 에는 안전을 위해
+  모든 입장 및 재입장이 제한됩니다.\n
+- 동물의 건강 및 기타 상황에 따라 예고없이 취소 및 변경 될 수 있습니다.\n
+- 손님과 동물의 안전을 위하여 보조견의 동반 이용이 제한 될 수 있습니다.\n
+"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="운영 시간 : 13:30 14:30 15:30 16:30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="관람 소요 시간: 30분"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        app:srcCompat="@drawable/safari_limit" />
+
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/superswings_map"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:text="MAP"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:clickable="true"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

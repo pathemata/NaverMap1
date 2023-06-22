@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "508538500335",
+    "project_id": "chat-app-eefe9",
+    "storage_bucket": "chat-app-eefe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508538500335:android:5398b4af823e349a7d571a",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508538500335-p3iqp3s0bd20qmknrhas0484mmh5fv0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEtxJPwOnSOHCxbXJxT9V8Tk8H7TewTPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508538500335-p3iqp3s0bd20qmknrhas0484mmh5fv0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508538500335:android:8ac49363152461727d571a",
+        "android_client_info": {
+          "package_name": "com.example.navermap1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508538500335-p3iqp3s0bd20qmknrhas0484mmh5fv0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEtxJPwOnSOHCxbXJxT9V8Tk8H7TewTPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508538500335-p3iqp3s0bd20qmknrhas0484mmh5fv0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

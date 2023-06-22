@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Everland</string>
+
+    <string name="map">Map</string>
+
+    <string name="pandaworld">판다월드</string>
+
+    <string name="pandaworld_detail">동물들의 생태환경과 유사하게 자연 친화적으로 조성된 판다가 살고 있는 집 국내 최초로 태어난 아기판다 푸바오를 만나러오세요!</string>
+
+    <string name="bumpercars">범퍼카</string>
+
+    <string name="bumpercars_detail">누구든 멋진 레이서가 될 수 있어 항상 사랑받는 우리의 범퍼카~ 면허증이 없어도 오케이! 귀여운 자동차를 타고 요리 쿵 조리 쿵 부딪혀보며 재미난 경험을 즐겨 보세요.</string>
+
+    <string name="championshiprodeo">챔피언쉽 로데오</string>
+
+    <string name="championshiprodeo_detail">미국 서부시대 분위기의 로데오 경기장에서 신나는 음악과 함께 모두모두 빙글빙글~ 황야의 로데오에서 거친 라이드를 즐길 줄 아는 당신이 바로 챔피온!</string>
+
+    <string name="amazonexpress">아마존 익스프레스</string>
+
+    <string name="amazonexpress_detail">아마존 밀림 구석구석 장장 580미터 굽이치는 급류 속으로 꿈과 모험을 찾아 떠나는 곳!</string>
+
+    <string name="columbusadventures">콜럼버스 어드벤쳐</string>
+
+    <string name="columbusadventures_detail">신대륙을 찾아 떠나는 콜롬버스호의 대탐험이 시작된다. 거친 파도에 맞서듯, 33미터 고공에서 75도 경사로 떨어지는 절대 쾌감! 대항해탐험을 함께 떠나봐요~</string>
+
+    <string name="thunderfalls">썬더폴스</string>
+
+    <string name="thunderfalls_detail">20미터의 국내 최고 낙하높이! 45도의 국내 최대 낙하각도! 국내 최초로 도입된 뒤로 떨어지는 백워드 드롭! 약 40미터 확장 된 최장 수로길이 486미터!</string>
+
+    <string name="texpress">T익스프레스</string>
+
+    <string name="texpress_detail">시속 104km의 엄청난 속도, 낙하각 77도의 아찔함! 세계 최고의 우든코스터가 잊지 못 할 최고의 기억을 여러분께 선사합니다.</string>
+
+    <string name="doublerockspin">더블락스핀</string>
+
+    <string name="doublerockspin_detail">앞뒤 360도 회전하는 의자에 앉아 20미터 높이에서 느끼는 연속 4회전의 짜릿함! 몇 명이 탑승하느냐에 따라 스핀 횟수와 강도가 달라져 탈 때마다 다른 재미까지!! </string>
+
+    <string name="hurricane">허리케인</string>
+
+    <string name="hurricane_detail">미국 서부 시대 한 마을을 덮친 허리케인... 오늘 초대형 폭풍 허리케인과 함께 하나가 된다! 19미터 높이에서 회전하는 메가톤급 회오리 속에 몸을 맡겨 보는거야!!</string>
+
+    <string name="letstwist">렛츠 트위스트</string>
+
+    <string name="letstwist_detail">상하좌우 예측 불허! 입체 회전형 스릴 라이드를 타고 마음껏 소리 지르며 스트레스를 풀자! 진정한 트위스트의 강자는 바로 나! 다 같이 Lets Twist!!</string>
+
+    <string name="peterpan">피터팬</string>
+
+    <string name="peterpan_detail">번쩍번쩍 불빛이 빛나는 탐험선을 타고 뒤쫓아오는 무서운 후크 선장을 따돌려라! 신나게 돌고도는 피터팬의 대모험이 이제 시작됩니다!</string>
+
+    <string name="rollingxtrain">롤링엑스 트레인</string>
+
+    <string name="rollingxtrain_detail">꽈배기처럼 꼬인 스크류 회전과 360도의 찌릿찌릿 공중회전이 두 번씩! 정신을 차릴 수 없는 롤러코스터의 정석, 롤링 엑스 트레인!!</string>
+
+    <string name="safariworld">사파리월드</string>
+
+    <string name="safariworld_detail">더 가까이, 코앞에서 생생한 맹수를 만날 기회! 낮아진 시야로 더 가깝고 넓어진 시야로 더 생생한 와일드트램을 만나보세요. </string>
+
+    <string name="skycruise">스카이 크루즈</string>
+
+    <string name="skycruise_detail">아메리칸 어드벤처(키즈커버리)에서 유러피안 어드벤처(로얄쥬빌리캐로셀)로 이동하는 케이블카입니다. </string>
+
+    <string name="skyway">스카이 웨이</string>
+
+    <string name="skyway_detail">아메리칸 어드벤처(더블락스핀)에서 유러피언 어드벤처(카니발 광장)로 이동하는 리프트 시설입니다. </string>
+
+    <string name="bath">화장실</string>
+
+    <string name="superswings">슈퍼 윙스 애니멀톡</string>
+
+    <string name="superswings_detail">멸종 위기종인 새들이 행복하고 건강하게 살아갈 수 있도록 사육사가 새들을 돌봐주는 이야기에 여러분을 초대합니다. </string>
+
+    <string name="penguins">펭귄 애니멀톡</string>
+
+    <string name="penguins_detail">사육사가 들려주는 자카스 펭귄 애니멀톡! 멸종위기에 처해있는 펭귄들의 이야기와 물 속 하늘을 나는 펭귄들을 만나보세요!</string>
+
+    <string name="sealions">씨라이언 애니멀톡</string>
+
+    <string name="sealions_detail">해양동물이 행복하고 건강하게 살아갈 수 있도록 노력하는 사육사들의 멋진 이야기에 여러분을 초대합니다.</string>
+
+    <string name="grandadventures">레니의 대모험</string>
+
+    <string name="grandadventures_detail">평화롭던 이솝빌리지에 찾아온 어둠의 기운... 레니와 라라는 이솝빌리지를 위험에서 구하기 위해 드래곤 성을 찾아 떠나는데…!</string>
+
+    <string name="tigers">타이거 밸리</string>
+
+    <string name="tigers_detail">호랑이가 어흥~하는 소리를 직접 들어보셨나요? 사육사한테 애교 떠는 모습은 딱 호냥이~!</string>
+
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="add_image">add_image</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message">Type a message</string>
+
+
+
+
+</resources>
